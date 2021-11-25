@@ -31,6 +31,11 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 20px;
   border: 1px solid transparent;
 }
+.navbar ul li{
+	display: inline-block;
+	margin-right: 50px;
+}	
+
 /*! Responsive NavigationBar */
 @media (min-width: 768px) {
   .navbar {
