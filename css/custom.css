@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6 {
 	}
 /*! Navigation Block */
 .navbar {
+  text-align: right;
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
@@ -42,6 +43,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 .navbar-nav {
   margin: 7.5px -15px;
+  text-align: right;
+  list-style-type: none;
 }
 .sr-only {
   position: absolute;
