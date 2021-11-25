@@ -281,5 +281,10 @@ form h3{
   background: #fff;
   color: #000;
 }
-            
+.input-box button::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+           
 	
