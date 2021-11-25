@@ -166,4 +166,26 @@ h1, h2, h3, h4, h5, h6 {
 	color: black;
 }
 
+/* Reference maps Css inspired from https://youtu.be/yQimoqo0-7g */
+.categories{
+	margin: 70px;
+}
+.row1{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	margin-top: 70px;
+}	
+.col3{
+	flex-basis: 40%;
+	min-width: 250px;
+	margin-bottom: 30px;	
+}
+.col1{
+	text-align: center;
+	flex-basis: 20%;
+	padding: 20px;
+	min-width: 250px;
+}
 	
