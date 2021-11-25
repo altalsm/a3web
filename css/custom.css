@@ -193,6 +193,9 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 20px;
 	min-width: 250px;
 }
+/*! Registration Form  */
+/*! Source:https://www.w3schools.com/tags/tag_form.asp */
+/*! Reference:https://www.123formbuilder.com/free-form-templates/Contact-Form-271209/  */
 .wrapper{
   position: relative;
   max-width: 430px;
@@ -240,7 +243,6 @@ form .input-box input{
   background: rgba(255, 255, 255, 0.4);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-  box-shadow: 0 8px 32px 0 rgba(189, 51, 131, 0.37);
   backdrop-filter: blur(15px);
   -webkit-backdrop-filter: blur(15px);
   padding: 0 15px;
