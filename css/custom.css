@@ -46,6 +46,12 @@ h1, h2, h3, h4, h5, h6 {
   text-align: right;
   list-style-type: none;
 }
+
+.navbar ul li{
+	display: inline-block;
+	margin-right: 50px;
+}	
+
 .sr-only {
   position: absolute;
   width: 1px;
