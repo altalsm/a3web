@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- CSS reference -->
+    <link href="css/custom.css" rel="stylesheet"> 
+</head>
+<body>
+ <!-- Navigation main icon-->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+	    <div class="container">
+           <div class="navbar-header">
+                <span class="sr-only"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <a class="navbar-brand" href="#">
+                	GIS Consultants
+                </a>
+            </div>
+            <!-- Navgation bar - rest of the tabs -->
+            
+                <div class="collapse navbar-collapse" id="navbar">
+                <ul class="nav navbar-nav">
+                    <li class="active">
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="About.html">About</a>
+                    </li>
+					<li>
+                        <a href="#">Projects</a>
+                    </li>
+                    <li>
+                      <a href="TheTeam.html">The Team </a>
+                    </li>
+			    </ul>
+
+                 </div>
+            
+        </div>
+        <!-- container ref-->
+    </nav>
+
+
+  <h1>COMPANY NAME_ PROJECTS</h1>
+  
+<h2>Remote Sensing</h2>
+<p>INSERT IMAGES/EXAMPLES OF REMOTE SENSING PROJECTS</p>
+<h2>Spatial Analysis</h2>
+<p>INSERT IMAGES.EXAMPLES OF SPATIAL ANALYSIS</p>
+<h2>Cartography</h2>
+<p>INSERT IMAGES/EXAMPLES OF CARTOGRAPHY(GEOVIS)</p>
+<h2>Surveying</h2>
+<p>INSERT IMAGES/EXAMPLES OF SURVEYING</p>
+<h2>Databases</h2>
+<p>INSERT IMAGES/EXAMPLES OF DATABASES/p>
+
+
+
+
+</body>
+</html>
