@@ -340,17 +340,10 @@ form h3{
   background-color: #555;
 }	
 
-/*CSS for about page*/
-/*https://www.w3schools.com/howto/howto_css_about_page.asp*/
-.about-section {
-  padding: 50px;
-  text-align: center;
-  background-color: #999;
-  color: white;
 
 	
-	/* CSS for The team page */
-	/*REFERENCE: https://www.w3schools.com/howto/howto_css_team.asp*/
+/* CSS for The team page */
+/*REFERENCE: https://www.w3schools.com/howto/howto_css_team.asp*/
 	html {
   box-sizing: border-box;
 }
