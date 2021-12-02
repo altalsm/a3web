@@ -26,7 +26,6 @@ h1, h2, h3, h4, h5, h6 {
 /*! Navigation Block */
 .navbar {
   text-align: right;
-  text-color: white ;
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
@@ -405,28 +404,37 @@ form h3{
 
 /*css for the projects page div classes*/
 /*Reference: https://www.w3schools.com/tags/tag_figure.asp*/
+/*Reference: https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
 /*Allison*/
 
-/*Css style for figure*/
 figure.ProjectRS {
-background-color: beige;
+background-color: #999;
+  color: white;
   border: 1px #cccccc solid;
   padding: 4px;
   margin: auto;
 }
 
-/*Css style for figure captions contrasting color from projects div classes*/
 figcaption.ProjectRS {
-  background-color: #999;
-  color: Black;
+  background-color: black;
+  color: white;
   font-style: italic;
-  font-color: white;
   padding: 2px;
+ ;
 }
-
-/*Css style for the div containing text elements above the captions*/
 div.RSprojects1 {
   background-color: #eee;
   color: Black;
-    padding: 2px;
+    padding: 10px;
+    border: 1px solid;
+    box-shadow: 5px 10px #888888;
+ ;
 }
+div.ProjectRSExamples {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  }
+  
+#ProjectsP { 
+  background-color: white;}
