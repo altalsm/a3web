@@ -1,5 +1,3 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 body {
 	padding-top: 50px;
 	color: #959595;
@@ -346,6 +344,7 @@ form h3{
 	
 /* CSS for The team page */
 /*REFERENCE: https://www.w3schools.com/howto/howto_css_team.asp*/
+/*Allison*/
 	html {
   box-sizing: border-box;
 }
@@ -401,4 +400,31 @@ form h3{
 
 .button4:hover {
   background-color: #555;
+}
+
+/*css for the projects page div classes*/
+/*Reference: https://www.w3schools.com/tags/tag_figure.asp*/
+/*Allison*/
+
+/*Css style for figure*/
+figure.ProjectRS {
+background-color: beige;
+  border: 1px #cccccc solid;
+  padding: 4px;
+  margin: auto;
+}
+
+/*Css style for figure captions contrasting color from projects div classes*/
+figcaption.ProjectRS {
+  background-color: beige;
+  color: Black;
+  font-style: italic;
+  padding: 2px;
+}
+
+/*Css style for the div containing text elements above the captions*/
+div.RSprojects1 {
+  background-color: #eee;
+  color: Black;
+    padding: 2px;
 }
