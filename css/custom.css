@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 /*! Navigation Block */
 .navbar {
   text-align: right;
+  text-color: white ;
   position: relative;
   min-height: 50px;
   margin-bottom: 20px;
@@ -416,9 +417,10 @@ background-color: beige;
 
 /*Css style for figure captions contrasting color from projects div classes*/
 figcaption.ProjectRS {
-  background-color: beige;
+  background-color: #999;
   color: Black;
   font-style: italic;
+  font-color: white;
   padding: 2px;
 }
 
