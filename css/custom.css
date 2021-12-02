@@ -415,14 +415,14 @@ background-color: #999;
   margin: auto;
 }
 
-figcaption.ProjectRS {
+.ProjectRS {
   background-color: black;
   color: white;
   font-style: italic;
   padding: 2px;
  ;
 }
-div.RSprojects1 {
+.RSprojects1 {
   background-color: #eee;
   color: Black;
     padding: 10px;
@@ -430,11 +430,11 @@ div.RSprojects1 {
     box-shadow: 5px 10px #888888;
  ;
 }
-div.ProjectRSExamples {
+.ProjectRSExamples {
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px #888888;
   }
   
-#ProjectsP { 
+.ProjectsP { 
   background-color: white;}
