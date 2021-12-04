@@ -412,11 +412,8 @@ form h3{
 
 /*this is the fig caption*/
 .ProjectRS11 {
-   color: Black;
   font-style: italic;
-  padding: 2px;
- ;
-}
+  }
 /*this is the container*/
 .RSprojects1 {
   background-color: #eee;
