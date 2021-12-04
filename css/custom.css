@@ -408,6 +408,7 @@ form h3{
 /*https://www.w3schools.com/howto/howto_css_image_center.asp*/
 /*Allison*/
 
+/*this is the figure*/
 .ProjectRS {
 background-color: #999;
   color: white;
@@ -419,14 +420,15 @@ background-color: #999;
   margin-right: auto;
   width: 50%;
 }
-
-.ProjectRS {
+/*this is the fig caption*/
+.ProjectRS11 {
   background-color: black;
   color: white;
   font-style: italic;
   padding: 2px;
  ;
 }
+/*this is the container*/
 .RSprojects1 {
   background-color: #eee;
   color: Black;
@@ -435,11 +437,6 @@ background-color: #999;
     box-shadow: 5px 10px #888888;
  ;
 }
-.ProjectRSExamples {
-  border: 1px solid;
-  padding: 10px;
-  box-shadow: 5px 10px #888888;
-  }
-  
+/*this is the paragraph*/  
 .ProjectsP { 
   background-color: white;}
