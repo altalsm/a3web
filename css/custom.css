@@ -361,8 +361,8 @@ form h3{
     padding: 0 8px;
 }
 
-@media screen and (max-width: 650px) {
-  .column4 {
+.aboutimages @media screen and (max-width: 650px) {
+   .column4 {
     width: 100%;
     display: block;
   }
