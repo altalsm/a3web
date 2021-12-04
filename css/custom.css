@@ -361,12 +361,10 @@ form h3{
     padding: 0 8px;
 }
 
-.aboutimages @media screen and (max-width: 650px) {
-   .column4 {
-    width: 100%;
-    display: block;
-  }
-}
+.aboutimages {max-width: 650px
+	   .column4 {
+           width: 100%;
+           display: block;  }}
 
 .card4 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
