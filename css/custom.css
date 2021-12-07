@@ -1,198 +1,133 @@
+/*font import reference from https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp*/
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body {
-	padding-top: 50px;
-	color: #959595;
-	}
-	
-h1, h2, h3, h4, h5, h6 {
-	color: black;
-	}
-
-/*! Intro  background */
-.feature {
-	background-color: yellowgreen;
-	color: greenyellow;
-	}
-/*! Footer background */
-.footer-blurb {
-    padding: 30px 0;
-    background-color: #eee;
-    color: black;
-}
-    
-/*! Aligning parts of the body in the centre */
-.feature,.page-intro,.article-intro,.footer-blurb {
-	text-align: center;
-	}
-/*! Navigation Block */
-.navbar {
-  text-align: right;
-  position: relative;
-  min-height: 50px;
-  margin-bottom: 20px;
-  border: 1px solid transparent;
-}
-.navbar ul li{
-	display: inline-block;
-	margin-right: 50px;
-}	
-
-/*! Responsive NavigationBar */
-@media (min-width: 768px) {
-  .navbar {
-    border-radius: 4px;
-  }
-}
-@media (min-width: 768px) {
-  .navbar-header {
-    float: left;
-  }
-}
-/* Keeping navbar tabs in aligned position */
-.navbar-nav {
-  margin: 7.5px -15px;
-  text-align: right;
-  list-style-type: none;
-}
-	
-/*! class for brand icon in navbar */
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-/*! Trying inverted nav bar   */
-.navbar-inverse {
-  background-color: #999;
-  border-color: #080808;
-}
-/*! class for fixing navigation bar at the top along with resposive deisgn */
-.navbar-fixed-top {
-  position: fixed;
-  right: 0;
-  left: 0;
-  z-index: 1030;
-}
-@media (min-width: 768px) {
-  .navbar-fixed-top {
-    border-radius: 0;
-  }
-}
-.navbar-fixed-top {
-  top: 0;
-  border-width: 0 0 1px;
-}
-/*! class for font design of the brand */
-.navbar-brand {
-  float: left;
-  height: 50px;
-  padding: 15px 15px;
-  font-size: 18px;
-  line-height: 20px;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Sans';
+    /* height: 100vh; */
+    max-width: 100vw;
 }
 
-.navbar-nav {
-  margin: 7.5px -15px;
-}
-/*! class for defining background middle body */
-.col-lg-12 {
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-@media (min-width: 1200px) {
-  .col-lg-12 {
-    float: left;
-  }
-  .col-lg-12 {
+nav {
+    border-bottom: 2px solid mintcream;
+    background-color: mintcream;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: space-between;
+    /* padding-right: 1rem; */
+    /* position: static; */
     width: 100%;
-}}
-/*! class for defining style of middle body */
-.container {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
-}
-@media (min-width: 768px) {
-  .container {
-    width: 750px;
-  }
-}
-@media (min-width: 992px) {
-  .container {
-    width: 970px;
-  }
-}
-@media (min-width: 1200px) {
-  .container {
-    width: 1170px;
-  }
-}
-
-.row {
-  margin-right: -15px;
-  margin-left: -15px;
-}
-/*! class for defining style of middle body */
-.jumbotron {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  margin-bottom: 30px;
-  color: inherit;
-  background-color: #eee;
-}
-.jumbotron h1,.jumbotron .h1 {
-  color: inherit;
-}
-
-.jumbotron p {
-  margin-bottom: 15px;
-  font-size: 21px;
-  font-weight: 200;
-  color: black;
-}
-/*! outline around the selected/current tab in the navbar */
-.navbar-inverse .navbar-nav > .active > a,
-.navbar-inverse .navbar-nav > .active > a:hover,
-.navbar-inverse .navbar-nav > .active > a:focus {
-  color: #fff;
-  background-color: #080808;
-}
-/*! Hover over navbar options */
-.navbar a:hover {
-	background: #ddd;
-	color: black;
 }
 
 
-/* Reference maps Css inspired from https://youtu.be/yQimoqo0-7g */
-.categories{
-	margin: 70px;
+.logo {
+    width: 5rem;
+    height: 4rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
 }
-.row1{
-	display: flex;
-	align-items: center;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	margin-top: 70px;
-}	
-.col3{
-	flex-basis: 40%;
-	min-width: 250px;
-	margin-bottom: 30px;	
+
+.nav-btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
-.col1{
-	text-align: center;
-	flex-basis: 20%;
-	padding: 20px;
-	min-width: 250px;
+
+
+.nav-btn {
+    padding: 5px 1rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1rem;
+    white-space: nowrap;
 }
+
+.nav-btn:hover, .nav-btn:focus {
+    background-color: gray;
+}
+
+@media (min-width: 650px) {
+    .nav-btn {
+        padding: 1rem;
+        font-size: 1.2rem;
+    }
+    .logo{
+        padding-top: 0;
+    }
+}
+
+/*For backgroung image: https://www.w3schools.com/howto/howto_css_full_page.asp*/
+.home-container {
+    background-image: url('images/background.jpg');
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 1rem;
+	background-size: cover;
+}
+
+.home-heading {
+    text-align: left;
+    margin: auto;
+    margin-top: 5rem;
+	color:white;
+}
+.home-para {
+    text-align: left;
+    margin: auto;
+    margin-top: 5rem;
+	color:white;
+}
+
+.about-container, .work-container, .software-container {
+    background-color: black;
+    color: mintcream;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.about-heading, .work-heading, .software-heading {
+    margin: 1rem 2rem;
+    text-align: center;
+    border-bottom: 2px solid mintcream;
+    border-top: 2px solid mintcream;
+    padding: 1rem;
+}
+
+.about-card-container, .work-card-container, .software-card-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.about-card, .work-card, .software-card {
+    margin-top: 2rem;
+    border: 2px solid mintcream;
+    padding: 0;
+    border-radius: 7px;
+}
+
+.about-card img, .work-card img , .software-card img{
+    max-width: 60vw;
+    width: 250px;
+    height: 200px;
+    border-bottom: 2px solid mintcream;
+}
+
+.software-card img{
+    width: 150px;
+    height: 150px;
+}
+.about-card h3, .work-card h3 ,.software-card h3{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.work-card {
+    margin: 2rem 1rem;
+}
+
 /*! Registration Form  */
 /*! Source:https://www.w3schools.com/tags/tag_form.asp */
 /*! Reference:https://www.123formbuilder.com/free-form-templates/Contact-Form-271209/  */
