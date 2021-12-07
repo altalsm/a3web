@@ -64,20 +64,20 @@ nav {
     background-repeat: no-repeat;
     background-position: center;
     padding: 1rem;
-	background-size: cover;
+    background-size: cover;
 }
 
 .home-heading {
     text-align: left;
     margin: auto;
     margin-top: 5rem;
-	color:white;
+	color:black;
 }
 .home-para {
     text-align: left;
     margin: auto;
     margin-top: 5rem;
-	color:white;
+	color:black;
 }
 
 .about-container, .work-container, .software-container {
