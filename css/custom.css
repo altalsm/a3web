@@ -300,8 +300,8 @@ nav.sticky
 
 .socialicon a{
     text-decoration: none;
-    color: #fff;
-    border: 1.1px solid white;
+    color: black;
+    border: 2.1px solid black;
     padding: 5px;
     border-radius: 50%;
 }
