@@ -229,11 +229,12 @@ nav.sticky
       box-shadow: -5px 0 10px rgba(0,0,0,0.1);
   }
 /*Career Page CSS */ 
+/* Source: https://www.youtube.com/watch?v=FXznI0wVZ-8*/
 .png
 {
       width: 40%;
 }
-.content{
+.contentcareer{
     width: 62%;
     position: absolute;
     top: 60%;
@@ -243,7 +244,7 @@ nav.sticky
     color: rgb(20, 19, 19);
   }
   
-  .titlec{
+  .title{
     font-size: 70px;
     line-height: 100px;
     font-weight: bold;
@@ -270,7 +271,7 @@ nav.sticky
     border-radius: 20px;
     color: rgb(7, 7, 7);
     cursor: pointer;
-    background: linear-gradient(to left, transparent 50%, #ffc2ff 50%);
+    background: linear-gradient(to left, transparent 50%, #f7abf7 50%);
     background-size: 200%;
     background-position: right;
     transition: background-position 0.5s;
@@ -294,6 +295,33 @@ nav.sticky
     65%{margin-top: 0px;}
     70%{margin-top: 200px;}
     100%{margin-top: 200px;}
+  }
+  /*form career page CSS*/
+  /*Source: */
+  input[type=text], select 
+  {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 6px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    width: 100%;
+    background-color: #96b3e9;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #351cc5;
   }
 
 
