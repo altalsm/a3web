@@ -129,6 +129,7 @@ nav {
     margin: 2rem 1rem;
 }
 
+<<<<<<< HEAD
 .png{
     width: 42%;
 }
@@ -138,6 +139,147 @@ nav {
     top: 60%;
     left: 35%;
     transform: translateY(-50%);
+=======
+nav
+{
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      padding: 20px;
+      transition: all 0.4s ease;
+
+}
+
+nav.sticky
+{
+      padding: 15px 20px;
+      background: #3b3e46;
+      box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+ }
+
+  nav .nav-content
+  {
+      height: 100%;
+      max-width: 1200px;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+
+  nav .logo a{
+        font-weight: 500;
+        font-size: 35px;
+        color: #fff;
+        transition: all 0.3s ease;
+  }
+
+  nav .logo a:hover
+  {
+      letter-spacing: 4px;
+  }
+  .home
+  {
+      height: 100vh;
+      width: 100%;
+      background: url(images/background.jpg);
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      font-family: sans-serif;
+  }
+
+  nav.sticky .logo a{
+      color: #fff;
+  }
+
+
+
+  .nav-content .nav-links
+  {
+      display: flex;
+  }
+
+  .nav-content .nav-links li{
+      list-style: none;
+      margin: 08px;
+  }
+
+  .nav-links li a{
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      font-weight: 500;
+      padding: 10px;
+      transition: all 0.3s ease;
+  }
+
+  .nav-links li a:hover
+  {
+      color: #ffbf00;
+      letter-spacing: 4px;
+  }
+
+  nav.sticky .nav-links li a
+  {
+      color: #fff;
+      transition: all 0.4s ease;
+  }
+
+  nav.sticky .nav-links li a:hover
+  {
+    color: #ffbf00;
+    letter-spacing: 4px;
+  }
+
+  .text
+  {
+      text-align: center;
+      padding: 40px 80px;
+      box-shadow: -5px 0 10px rgba(0,0,0,0.1);
+  }
+
+/*Services Page CSS - Allison*/
+/*Reference:https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
+
+.ServicesHead {
+    background-color: mintcream;
+    color: black;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.services {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px rgb(189, 247, 218);
+}
+
+/*About Page CSS - Allison*/
+/*Reference:https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
+
+.AboutHead {
+    background-color: mintcream;
+    color: black;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+}
+
+.about {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px rgb(189, 247, 218);
+}
+
+  /*  ---------------------------FOOTER SECTION Starts Here ---------------------------------*/
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+>>>>>>> 3379229d507831fa7ae17028ac727a3530844726
     text-align: center;
     color: #fff;
 }
@@ -149,6 +291,7 @@ nav {
     height: 100px;
     display: flex;
     justify-content: center;
+<<<<<<< HEAD
     text-align: left;
     align-items: center;
     overflow: hidden;
@@ -198,3 +341,35 @@ button:hover{
 
   
   
+=======
+    margin: 1rem 0 3rem 0;
+}
+
+.socialicon li{
+    margin: 0 10px;
+}
+
+.socialicon a{
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid black;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+
+.socialicon a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socialicon a:hover i{
+	transform: translateY(-10px);
+    color: aqua;
+}
+
+	
+/*  ---------------------------FOOTER SECTION Ends ---------------------------------*/
+
+>>>>>>> 3379229d507831fa7ae17028ac727a3530844726
