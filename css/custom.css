@@ -231,7 +231,7 @@ nav.sticky
 /*Career Page CSS */ 
 .png
 {
-      width: 52%;
+      width: 42%;
 }
 .content{
     width: 65%;
@@ -240,7 +240,7 @@ nav.sticky
     left: 35%;
     transform: translateY(-50%);
     text-align: center;
-    color: #fff;
+    color: rgb(20, 19, 19);
   }
   
   .title{
@@ -270,7 +270,7 @@ nav.sticky
     border-radius: 20px;
     color: rgb(223, 138, 138);
     cursor: pointer;
-    background: linear-gradient(to left, transparent 50%, #0751ff 50%);
+    background: linear-gradient(to left, transparent 50%, #e986c0 50%);
     background-size: 200%;
     background-position: right;
     transition: background-position 0.5s;
