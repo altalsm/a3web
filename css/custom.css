@@ -428,7 +428,7 @@ nav.sticky
   padding: 0 16px;
 }
 
-.containerteam::after {
+.containerteam::after, .row::after {
   content: "";
   clear: both;
   display: table;
