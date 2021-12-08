@@ -237,3 +237,12 @@ nav.sticky
   padding: 10px;
   box-shadow: 5px 10px rgb(189, 247, 218);
 }
+
+/*About Page CSS - Allison*/
+/*Reference:https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
+
+.about {
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px rgb(189, 247, 218);
+}
