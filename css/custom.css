@@ -228,6 +228,73 @@ nav.sticky
       padding: 40px 80px;
       box-shadow: -5px 0 10px rgba(0,0,0,0.1);
   }
+/*Career Page CSS */ 
+.png
+{
+      width: 42%;
+}
+.content{
+    width: 65%;
+    position: absolute;
+    top: 60%;
+    left: 35%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .title{
+    font-size: 100px;
+    line-height: 100px;
+    font-weight: bold;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .content p{
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 25px;
+  }
+  
+  button{
+    padding: 15px 25px;
+    margin: 20px;
+    font-size: 16px;
+    letter-spacing: 2px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    background: linear-gradient(to left, transparent 50%, #78cc8a 50%);
+    background-size: 200%;
+    background-position: right;
+    transition: background-position 0.5s;
+  }
+  
+  button:hover{
+    background-position: left;
+  }
+  
+  .slider{
+    color: #0751ff;
+    margin-left: 12px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite;
+  }
+  
+  @keyframes slider{
+    0%{margin-top: -200px;}
+    30%{margin-top: -200px;}
+    35%{margin-top: 0px;}
+    65%{margin-top: 0px;}
+    70%{margin-top: 200px;}
+    100%{margin-top: 200px;}
+  }
 
 /*Services Page CSS - Allison*/
 /*Reference:https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
@@ -272,58 +339,10 @@ nav.sticky
     color: #fff;
 }
   
-.title{
-    font-size: 70px;
-    line-height: 100px;
-    font-weight: bold;
-    height: 100px;
-    display: flex;
-    justify-content: center;
-    text-align: left;
-    align-items: center;
-    overflow: hidden;
-}
+
+
   
-.content p{
-    font-size: 25px;
-    font-weight: 100;
-    line-height: 25px;
-}
-  
-button{
-    padding: 15px 25px;
-    margin: 20px;
-    font-size: 16px;
-    letter-spacing: 2px;
-    border: 1px solid #fff;
-    border-radius: 20px;
-    color: #fff;
-    cursor: pointer;
-    background: linear-gradient(to left, transparent 50%, #0751ff 50%);
-    background-size: 200%;
-    background-position: right;
-    transition: background-position 0.5s;
-}
-  
-button:hover{
-    background-position: left;
-}
-  
-.slider{
-    color: #0751ff;
-    margin-left: 12px;
-    box-sizing: border-box;
-    animation: slider 6s linear infinite;
-}
-  
-  @keyframes slider{
-    0%{margin-top: -200px;}
-    30%{margin-top: -200px;}
-    35%{margin-top: 0px;}
-    65%{margin-top: 0px;}
-    70%{margin-top: 200px;}
-    100%{margin-top: 200px;}
-}
+
 
 
   
