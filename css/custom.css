@@ -11,7 +11,7 @@ body {
 nav {
     border-bottom: 2px solid mintcream;
     background-color: rgb(189, 247, 218);
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: 2px 2px 2px 1px rgba(7, 7, 7, 0.2);
     display: flex;
     justify-content: space-between;
     /* padding-right: 1rem; */
@@ -128,5 +128,50 @@ nav {
 .work-card {
     margin: 2rem 1rem;
 }
-
+.about {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .about .aboutteam {
+    cursor: pointer;
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+  
+  .navbar a:hover, .about:hover .aboutteam, .aboutteam:focus {
+    background-color: rgb(2, 2, 2);
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(189, 247, 218);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(3, 3, 3);
+  }
+  
+  .show {
+    display: block;
+  }
 
