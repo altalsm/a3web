@@ -243,7 +243,7 @@ nav.sticky
     color: rgb(20, 19, 19);
   }
   
-  .title{
+  .titlecareer{
     font-size: 70px;
     line-height: 100px;
     font-weight: bold;
@@ -270,7 +270,7 @@ nav.sticky
     border-radius: 20px;
     color: rgb(7, 7, 7);
     cursor: pointer;
-    background: linear-gradient(to left, transparent 50%, #acfae2 50%);
+    background: linear-gradient(to left, transparent 50%, #ffc2ff 50%);
     background-size: 200%;
     background-position: right;
     transition: background-position 0.5s;
