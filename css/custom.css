@@ -268,9 +268,9 @@ nav.sticky
     letter-spacing: 2px;
     border: 1px solid rgb(23, 68, 5);
     border-radius: 20px;
-    color: rgb(15, 221, 25);
+    color: rgb(7, 7, 7);
     cursor: pointer;
-    background: linear-gradient(to left, transparent 50%, #0ee7a6 50%);
+    background: linear-gradient(to left, transparent 50%, #acfae2 50%);
     background-size: 200%;
     background-position: right;
     transition: background-position 0.5s;
