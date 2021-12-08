@@ -43,10 +43,6 @@ nav {
     white-space: nowrap;
 }
 
-.nav-btn:hover, .nav-btn:focus {
-    background-color: gray;
-}
-
 @media (min-width: 650px) {
     .nav-btn {
         padding: 1rem;
