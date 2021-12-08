@@ -43,6 +43,10 @@ nav {
     white-space: nowrap;
 }
 
+.nav-btn:hover, .nav-btn:focus {
+    background-color: gray;
+}
+
 @media (min-width: 650px) {
     .nav-btn {
         padding: 1rem;
@@ -398,7 +402,7 @@ nav.sticky
   
 /*Services Page CSS - Allison*/
 /*Reference:https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
-
+/*Displays name of page at the top*/
 .ServicesHead {
     background-color: mintcream;
     color: black;
@@ -406,13 +410,14 @@ nav.sticky
     padding-bottom: 10px;
     marign-top: 50px;
 }
-
+/*add color, border and style to the display name*/
 .services {
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px rgb(189, 247, 218);
 }
 
+/*adjusts figures to 50%*/
 figure {
   width: auto ;
   max-width: 50% ;
@@ -421,7 +426,7 @@ figure {
 
 /*About Page CSS - Allison*/
 /*Reference:https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
-
+/*page name at top*/
 .AboutHead {
     background-color: mintcream;
     color: black;
@@ -430,6 +435,7 @@ figure {
     marign-top: 50px;
 }
 
+/*style, border and color to name at top*/
 .about {
   border: 1px solid;
   padding: 10px;
@@ -444,7 +450,7 @@ figure {
   margin-bottom: 16px;
   padding: 0 8px;
 }
-
+/*responsive*/
 @media screen and (max-width: 650px) {
   .columnteam {
     width: 100%;
@@ -459,7 +465,7 @@ figure {
 .containerteam {
   padding: 0 16px;
 }
-
+/*aligns the members down the page*/
 .containerteam::after, .rowteam::after {
   content: "";
   clear: both;
