@@ -464,6 +464,12 @@ figure {
   padding: 0 16px;
 }
 
+.containerteam::after, .rowteam::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 
 .titleteam {
   color: grey;
