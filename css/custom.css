@@ -404,12 +404,19 @@ nav.sticky
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
+    marign-top: 50px;
 }
 
 .services {
   border: 1px solid;
   padding: 10px;
   box-shadow: 5px 10px rgb(189, 247, 218);
+}
+
+figure {
+  width: auto ;
+  max-width: 50% ;
+  height: auto ;
 }
 
 /*About Page CSS - Allison*/
@@ -420,6 +427,7 @@ nav.sticky
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
+    marign-top: 50px;
 }
 
 .about {
@@ -450,6 +458,12 @@ nav.sticky
 
 .containerteam {
   padding: 0 16px;
+}
+
+.containerteam::after, .rowteam::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
 
