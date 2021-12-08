@@ -402,6 +402,11 @@ nav.sticky
   
 /*Services Page CSS - Allison*/
 /*Reference:https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
+
+body {
+    padding: 65px;
+}
+
 /*Displays name of page at the top*/
 .ServicesHead {
     background-color: mintcream;
@@ -426,6 +431,11 @@ figure {
 
 /*About Page CSS - Allison*/
 /*Reference:https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
+
+body {
+    padding: 65px;
+}
+
 /*page name at top*/
 .AboutHead {
     background-color: mintcream;
