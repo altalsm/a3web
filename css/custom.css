@@ -408,6 +408,7 @@ nav.sticky
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
+    marign-top: 50px;
 }
 
 .services {
@@ -430,6 +431,7 @@ figure {
     color: black;
     padding-top: 10px;
     padding-bottom: 10px;
+    marign-top: 50px;
 }
 
 .about {
