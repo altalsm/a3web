@@ -295,6 +295,8 @@ nav.sticky
     70%{margin-top: 200px;}
     100%{margin-top: 200px;}
   }
+  /*form career page CSS*/
+  /*Source   */
   input[type=text], select 
   {
     width: 100%;
@@ -308,7 +310,7 @@ nav.sticky
   
   input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #90e9ff;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
