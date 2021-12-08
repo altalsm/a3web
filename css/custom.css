@@ -1,7 +1,7 @@
 /*font import reference from https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp*/
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body {
-    padding: 0;
+    padding: 65px;
     margin: 0;
     font-family: 'PT Sans';
     /* height: 100vh; */
