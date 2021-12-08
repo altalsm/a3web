@@ -10,7 +10,7 @@ body {
 
 nav {
     border-bottom: 2px solid mintcream;
-    background-color: mintcream;
+    background-color: rgb(189, 247, 218);
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
     display: flex;
     justify-content: space-between;
@@ -81,17 +81,18 @@ nav {
 }
 
 .about-container, .work-container, .software-container {
-    background-color: black;
-    color: mintcream;
+    background-color: mintcream;
+    color: black;
     padding-top: 2rem;
     padding-bottom: 5rem;
 }
 
 .about-heading, .work-heading, .software-heading {
     margin: 1rem 2rem;
+    background-color: rgb(198, 243, 220);
     text-align: center;
-    border-bottom: 2px solid mintcream;
-    border-top: 2px solid mintcream;
+    border-bottom: 2px solid rgba(5, 29, 17, 0.212);
+    border-top: 2px solid rgba(5, 29, 17, 0.212) ;
     padding: 1rem;
 }
 
@@ -103,7 +104,7 @@ nav {
 
 .about-card, .work-card, .software-card {
     margin-top: 2rem;
-    border: 2px solid mintcream;
+    border: 2px solid rgb(6, 15, 11);
     padding: 0;
     border-radius: 7px;
 }
