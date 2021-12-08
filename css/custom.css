@@ -328,7 +328,7 @@ nav.sticky
   box-shadow: 5px 10px rgb(189, 247, 218);
 }
 
-  /*  ---------------------------FOOTER SECTION Starts Here ---------------------------------*/
+/*  ---------------------------FOOTER SECTION Starts Here ---------------------------------*/
 
 .footer-content{
     display: flex;
@@ -336,10 +336,70 @@ nav.sticky
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    color: #fff;
+    margin-bottom: auto;
+    bottom: 50px;
+    margin-bottom: 50px;
 }
-  
+.footer-content h1{
+    color:  black;
+	text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
 
+.footer-bottom-text{
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 20px 0;
+    margin-top: 40px;
+}
+.footer-bottom-text p{
+    color: #b7b7b7;
+    margin-bottom: 0;
+}
+
+.footer-bottom-text p a{
+    color: #e53637;
+}
+
+/*  social media icon placement and hover effects inside footer section */
+.socialicon{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socialicon li{
+    margin: 0 10px;
+}
+
+.socialicon a{
+    text-decoration: none;
+    color: black;
+    border: 1.5px solid black;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.socialicon a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socialicon a:hover i{
+	transform: translateY(-10px);
+    color: aqua;
+}
+
+	
+/*  ---------------------------FOOTER SECTION Ends ---------------------------------*/
 
   
 
