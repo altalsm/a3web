@@ -129,17 +129,6 @@ nav {
     margin: 2rem 1rem;
 }
 
-<<<<<<< HEAD
-.png{
-    width: 42%;
-}
-.content{
-    width: 65%;
-    position: absolute;
-    top: 60%;
-    left: 35%;
-    transform: translateY(-50%);
-=======
 nav
 {
       position: fixed;
@@ -279,7 +268,6 @@ nav.sticky
     align-items: center;
     justify-content: center;
     flex-direction: column;
->>>>>>> 3379229d507831fa7ae17028ac727a3530844726
     text-align: center;
     color: #fff;
 }
@@ -291,7 +279,6 @@ nav.sticky
     height: 100px;
     display: flex;
     justify-content: center;
-<<<<<<< HEAD
     text-align: left;
     align-items: center;
     overflow: hidden;
@@ -341,35 +328,3 @@ button:hover{
 
   
   
-=======
-    margin: 1rem 0 3rem 0;
-}
-
-.socialicon li{
-    margin: 0 10px;
-}
-
-.socialicon a{
-    text-decoration: none;
-    color: black;
-    border: 1.5px solid black;
-    padding: 13px;
-    border-radius: 50%;
-}
-
-
-.socialicon a i{
-    font-size: 1.1rem;
-    width: 20px;
-    transition: color .4s ease;
-}
-
-.socialicon a:hover i{
-	transform: translateY(-10px);
-    color: aqua;
-}
-
-	
-/*  ---------------------------FOOTER SECTION Ends ---------------------------------*/
-
->>>>>>> 3379229d507831fa7ae17028ac727a3530844726
