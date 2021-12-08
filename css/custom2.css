@@ -64,7 +64,7 @@ body {
   }
   
   .topimage {
-    background-image: url('world.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+    background-image: url('images/world.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom center;
