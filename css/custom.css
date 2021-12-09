@@ -1,7 +1,7 @@
 /*font import reference from https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp*/
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body {
-    padding: 65px;
+    padding-top: 120px;
     margin: 0;
     font-family: 'PT Sans';
     /* height: 100vh; */
@@ -17,8 +17,8 @@ nav {
     z-index:1;
     display: flex;
     justify-content: space-between;
-    padding-right: 1rem;
-    position: static;
+    /*padding-right: 1rem;*/
+    /*position: static;*/
     width: 100%;
 }
 
@@ -434,10 +434,6 @@ nav.sticky
 /*Services Page CSS - Allison*/
 /*Reference:https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
 
-body {
-    padding: 65px;
-}
-
 /*Displays name of page at the top*/
 .ServicesHead {
     background-color: mintcream;
@@ -461,10 +457,6 @@ figure {
 
 /*ABOUT PAGE - Allison*/
 /*Reference:https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
-
-body {
-    padding: 65px;
-}
 
 /*page name at top*/
 .AboutHead {
