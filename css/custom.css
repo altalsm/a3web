@@ -1,4 +1,5 @@
-/*font import reference from https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp*/
+/*font import reference from https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp*- Mansi/
+/*This gives style for whole body part*/
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body {
     padding-top: 120px;
@@ -10,6 +11,7 @@ body {
 }
 /*z index reference: https://www.w3.org/TR/CSS2/visuren.html#z-index -Allison */
 /*Nav bar padding reference: https://forum.freecodecamp.org/t/bootstrap-navbar-padding/246529 -Allison*/
+/*To give header section a good looking links for all pages URL from https://youtu.be/yQimoqo0-7g you tube video- Mansi */
 nav {
     border-bottom: 2px solid mintcream;
     background-color: rgb(189, 247, 218);
@@ -23,21 +25,20 @@ nav {
     width: 100%;
 }
 
-
+/*logo arrangement on header section and to reduce is size*/
 .logo {
     width: 5rem;
     height: 4rem;
     padding-left: 1rem;
     padding-top: 1rem;
 }
-
+/*Flex property to arrange the sections horizontally https://www.w3schools.com/css/css3_flexbox.asp- Mansi*/
 .nav-btn-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 }
-
-
+/*css for navigation*/
 .nav-btn {
     padding: 5px 1rem;
     text-decoration: none;
@@ -46,11 +47,12 @@ nav {
     font-size: 1rem;
     white-space: nowrap;
 }
-
+/*Hover effects for pages links*/
 .nav-btn:hover, .nav-btn:focus {
     background-color: gray;
 }
 
+/*For media results(for responsive design) https://www.w3schools.com/css/css_rwd_mediaqueries.asp*- Mansi*/
 @media (min-width: 650px) {
     .nav-btn {
         padding: 1rem;
@@ -61,7 +63,8 @@ nav {
     }
 }
 
-/*For backgroung image: https://www.w3schools.com/howto/howto_css_full_page.asp*/
+/*For backgroung image: https://www.w3schools.com/howto/howto_css_full_page.asp 
+and for css https://www.w3schools.com/cssref/pr_background-image.asp* It aligns the image for the whole division- Mansi*/
 .home-container {
     background-image: url('../images/background.jpg');
     height: 70vh;
@@ -70,7 +73,7 @@ nav {
     padding: 1rem;
     background-size: cover;
 }
-
+/*Heading and paragraph to be on left side so that it does not collide with white part of background image*/
 .home-heading {
     text-align: left;
     margin: auto;
@@ -83,14 +86,14 @@ nav {
     margin-top: 5rem;
     color:white;
 }
-
+/*css for About Us, Our Works, and Softwares we use parts- Mansi*/
 .about-container, .work-container, .software-container {
     background-color: mintcream;
     color: black;
     padding-top: 2rem;
     padding-bottom: 5rem;
 }
-
+/*Give color and borders to headings of About Us, Our Works, and Softwares we use parts*/
 .about-heading, .work-heading, .software-heading {
     margin: 1rem 2rem;
     background-color: rgb(198, 243, 220);
@@ -99,13 +102,15 @@ nav {
     border-top: 2px solid rgba(5, 29, 17, 0.212) ;
     padding: 1rem;
 }
-
+/*To show all objects of About Us, Our Works, and Softwares we use in one line with spacing in between and on sides
+https://stackoverflow.com/questions/4550013/html-element-display-in-horizontal-line/4550403.*/
 .about-card-container, .work-card-container, .software-card-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-
+/*css property for each image or object of About Us, Our Works, and Softwares parts
+border for each image*/
 .about-card, .work-card, .software-card {
     margin-top: 2rem;
     border: 2px solid rgb(6, 15, 11);
@@ -113,7 +118,8 @@ nav {
     border-radius: 7px;
 }
 
-.about-card img, .work-card img , .software-card img{
+/*Though images are resized still css used to show all images of same size for better alignment*/
+.about-card img, .work-card img {
     max-width: 60vw;
     width: 250px;
     height: 200px;
@@ -121,9 +127,13 @@ nav {
 }
 
 .software-card img{
+    max-width: 60vw;
     width: 150px;
     height: 150px;
+    border-bottom: 2px solid mintcream;
 }
+
+/*css for description of all small images*/
 .about-card h3, .work-card h3 ,.software-card h3{
     text-align: center;
     margin-top: 10px;
@@ -515,7 +525,8 @@ figure {
   background-color: #555;
 }
 
-/* Projects page css (Almost same as Services page) - Mansi*/
+/* Projects page css - Mansi*/
+/*css for test written*/
 .projects, .projects1 {
   text-align: center;
   list-style-type: none;
@@ -523,7 +534,7 @@ figure {
   padding: 10px;
   box-shadow: 5px 10px rgb(189, 247, 218);
 }
-
+/*css for images*/
 .project-img {
   width: 50%;
 }  
