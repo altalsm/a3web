@@ -232,15 +232,18 @@ nav.sticky
   }
 /*Career Page CSS- Arathy */ 
 /* Source: https://www.youtube.com/watch?v=FXznI0wVZ-8*/
-.png
+/*width of the image icon in career page*/
+.png 
 {
     width: 40%;   
 }
+/*adding properties to contents in career page to make it more aesthetic*/
 .contentcareer{
     width: 62%;
     position: absolute;
     top: 60%;
     left: 35%;
+    /*enables transformation of text*/
     transform: translateY(-50%);
     text-align: center;
     color: rgb(20, 19, 19);
@@ -263,7 +266,7 @@ nav.sticky
     font-weight: 100;
     line-height: 25px;
   }
-  
+  /*Adds Button property for Apply now option in Career page*/
   button{
     padding: 15px 25px;
     margin: 20px;
@@ -282,14 +285,7 @@ nav.sticky
   button:hover{
     background-position: left;
   }
-  
-  .slider{
-    color: #e6ff07;
-    margin-left: 12px;
-    box-sizing: border-box;
-    animation: slider 6s linear infinite;
-  }
-  
+
   /*form career page CSS*/
   /*Source: https://www.w3schools.com/css/css_form.asp*/
   /*Arathy*/
