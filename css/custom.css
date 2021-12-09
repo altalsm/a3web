@@ -558,6 +558,7 @@ details > summary::-webkit-details-marker {
 }
                                     /* Testimonial - Client*/
 .faqheader{
+	margin: 0 auto;
 	text-align: center;
 }
 
