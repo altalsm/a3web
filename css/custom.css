@@ -285,6 +285,13 @@ nav.sticky
     background-position: left;
   }
   
+  .slider{
+    color: #0751ff;
+    margin-left: 12px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite;
+  }
+  
   /*form career page CSS*/
   /*Source: https://www.w3schools.com/css/css_form.asp*/
   input[type=text], select 
@@ -550,6 +557,10 @@ details > summary::-webkit-details-marker {
   
 }
                                     /* Testimonial - Client*/
+.faqheader{
+	text-align: center;
+}
+
 .wrapper{
   max-width: 1200px;
   margin-top: auto;
