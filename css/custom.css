@@ -323,7 +323,28 @@ nav.sticky
   input[type=submit]:hover {
     background-color: #351cc5;
   }
-
+/*site suitability map gallary*/
+ /*Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery*/
+  div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 20px;
+    text-align: center;
+  }
 
 
 /*  ---------------------------FOOTER SECTION Starts Here ---------------------------------*/
