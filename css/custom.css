@@ -178,7 +178,7 @@ nav.sticky
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
-      font-family: sans-serif;
+      font-family:  Arial, sans-serif;
   }
 
   nav.sticky .logo a{
