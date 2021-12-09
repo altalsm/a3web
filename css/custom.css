@@ -332,7 +332,7 @@ nav.sticky
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 350px;
   }
   
   div.gallery:hover {
@@ -442,7 +442,7 @@ body {
 .ServicesHead {
     background-color: mintcream;
     color: black;
-    marign-top: 50px;
+    margin-top: 50px;
     padding-top 25px;
 }
 /*add color, border and style to the display name*/
@@ -470,7 +470,7 @@ body {
 .AboutHead {
     background-color: mintcream;
     color: black;
-    marign-top: 50px;
+    margin-top: 50px;
     padding-top 25px;
 }
 
