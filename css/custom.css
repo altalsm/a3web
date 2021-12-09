@@ -7,11 +7,14 @@ body {
     /* height: 100vh; */
     max-width: 100vw;
 }
-
+/*z index reference: https://www.w3.org/TR/CSS2/visuren.html#z-index -Allison */
+/*Nav bar padding reference: https://forum.freecodecamp.org/t/bootstrap-navbar-padding/246529 -Allison*/
 nav {
     border-bottom: 2px solid mintcream;
     background-color: rgb(189, 247, 218);
     box-shadow: 2px 2px 2px 1px rgba(7, 7, 7, 0.2);
+    padding-bottom: 10%;
+    z-index:1;
     display: flex;
     justify-content: space-between;
     /* padding-right: 1rem; */
@@ -323,28 +326,7 @@ nav.sticky
   input[type=submit]:hover {
     background-color: #351cc5;
   }
-/*site suitability map gallary*/
- /*Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery*/
-  div.gallery {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 250px;
-  }
-  
-  div.gallery:hover {
-    border: 1px solid #777;
-  }
-  
-  div.gallery img {
-    width: 100%;
-    height: auto;
-  }
-  
-  div.desc {
-    padding: 20px;
-    text-align: center;
-  }
+
 
 
 /*  ---------------------------FOOTER SECTION Starts Here ---------------------------------*/
@@ -438,8 +420,6 @@ body {
 .ServicesHead {
     background-color: mintcream;
     color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
     marign-top: 50px;
 }
 /*add color, border and style to the display name*/
@@ -456,7 +436,7 @@ figure {
   height: auto ;
 }
 
-/*About Page CSS - Allison*/
+/*ABOUT PAGE - Allison*/
 /*Reference:https://www.w3schools.com/cssref/css3_pr_box-shadow.asp*/
 
 body {
@@ -467,8 +447,6 @@ body {
 .AboutHead {
     background-color: mintcream;
     color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
     marign-top: 50px;
 }
 
@@ -478,7 +456,7 @@ body {
   padding: 10px;
   box-shadow: 5px 10px rgb(189, 247, 218);
 }
-/*Meet the team on about page*/
+/*MEET THE TEAM on about page*/
 /*Reference:https://www.w3schools.com/howto/howto_css_team.asp*/
    
 .columnteam {
@@ -542,6 +520,5 @@ body {
 .project-img {
   width: 50%;
 }  
-
-  
+/*END OF ABOUT SECTION*/
   
