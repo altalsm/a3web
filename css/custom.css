@@ -418,8 +418,8 @@ body {
 .ServicesHead {
     background-color: mintcream;
     color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     marign-top: 50px;
 }
 /*add color, border and style to the display name*/
@@ -447,8 +447,8 @@ body {
 .AboutHead {
     background-color: mintcream;
     color: black;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 10%;
+    padding-bottom: 10%;
     marign-top: 50px;
 }
 
