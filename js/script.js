@@ -1,13 +1,10 @@
-// --------- Fixed NavBar Scroll Effect------------------
+// --------- FAQ------------------
 // -------- stackoverflow and github -------------------
 
-const nav = document.querySelector('.nav')
-window.addEventListener('scroll', fixNav)
-
-function fixNav() {
-    if(window.scrollY > nav.offsetHeight + 150) {
-        nav.classList.add('active')
-    } else {
-        nav.classList.remove('active')
-    }
+details[open] summary ~ * {
+  animation: sweep .10s ease-in-out;
+}
+@keyframes sweep {
+  0%    {opacity: 0; margin-top: -10px}
+  100%  {opacity: 1; margin-top: 0px}
 }
