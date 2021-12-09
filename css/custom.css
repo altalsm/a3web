@@ -284,7 +284,7 @@ nav.sticky
   }
   
   .slider{
-    color: #0751ff;
+    color: #e6ff07;
     margin-left: 12px;
     box-sizing: border-box;
     animation: slider 6s linear infinite;
@@ -318,7 +318,7 @@ nav.sticky
   input[type=submit]:hover {
     background-color: #351cc5;
   }
-  /*Site Suitability Gallary*/
+  /*Responsive Gallary*/
   /* Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery */
   /*Arathy*/
   div.gallery {
