@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body {
     padding-top: 120px;
-    padding:65px
+    padding:65px;
     margin: 0;
     font-family: 'PT Sans';
     /* height: 100vh; */
@@ -440,7 +440,6 @@ nav.sticky
     background-color: mintcream;
     color: black;
     margin-top: 50px;
-    padding-top 25px;
 }
 /*add color, border and style to the display name*/
 .services {
@@ -463,8 +462,7 @@ figure {
 .AboutHead {
     background-color: mintcream;
     color: black;
-    margin-top: 50px;
-    padding-top 25px;
+    margin-top: 50px;   
 }
 
 /*style, border and color to name at top*/
