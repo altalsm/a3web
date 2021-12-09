@@ -1,11 +1,9 @@
-/*font import reference from https://www.w3schools.com/cssref/css3_pr_font-face_rule.asp*- Mansi/
-/*This gives style for whole body part*/
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 body {
     padding-top: 120px;
     padding:65px;
     margin: 0;
-    font-family: 'PT Sans';
+    font-family: Arial, sans-serif;
     /* height: 100vh; */
     max-width: 100vw;
 }
@@ -190,7 +188,7 @@ nav.sticky
       background-size: cover;
       background-position: center;
       background-attachment: fixed;
-      font-family: sans-serif;
+      font-family:  Arial, sans-serif;
   }
 
   nav.sticky .logo a{
@@ -296,7 +294,7 @@ nav.sticky
   }
   
   .slider{
-    color: #0751ff;
+    color: #e6ff07;
     margin-left: 12px;
     box-sizing: border-box;
     animation: slider 6s linear infinite;
@@ -304,6 +302,7 @@ nav.sticky
   
   /*form career page CSS*/
   /*Source: https://www.w3schools.com/css/css_form.asp*/
+  /*Arathy*/
   input[type=text], select 
   {
     width: 100%;
@@ -329,13 +328,14 @@ nav.sticky
   input[type=submit]:hover {
     background-color: #351cc5;
   }
-  /*Site Suitability Gallary*/
-  /* Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery   */
+  /*Responsive Gallary*/
+  /* Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery */
+  /*Arathy*/
   div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 300px;
+    width: 350px;
   }
   
   div.gallery:hover {
@@ -475,14 +475,14 @@ figure {
 }
 /*MEET THE TEAM on about page*/
 /*Reference:https://www.w3schools.com/howto/howto_css_team.asp*/
-/*members aligned verticle*/   
+/*members aligned verticle down the left side*/   
 .columnteam {
   float: left;
   width: 33.3%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
-/*responsive*/
+/*makes it responsive*/
 @media screen and (max-width: 650px) {
   .columnteam {
     width: 100%;
@@ -552,9 +552,7 @@ summary {
   margin-bottom: 10px;
   background: #E8CDA1;
   border-radius: 10px;
-  position: center;
-  
-}
+  }
 details > summary::after {
   
   right: 20px;
