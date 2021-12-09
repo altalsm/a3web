@@ -15,8 +15,8 @@ nav {
     z-index:1;
     display: flex;
     justify-content: space-between;
-    padding-right: 1rem; 
-    position: static; 
+    /* padding-right: 1rem; */
+    /* position: static; */
     width: 100%;
 }
 
