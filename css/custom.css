@@ -465,7 +465,7 @@ figure {
 }
 /*MEET THE TEAM on about page*/
 /*Reference:https://www.w3schools.com/howto/howto_css_team.asp*/
-   
+/*members aligned verticle*/   
 .columnteam {
   float: left;
   width: 33.3%;
@@ -557,7 +557,7 @@ details > summary::-webkit-details-marker {
   
 }
                                     /* Testimonial - Client*/
-/*Reference center header https://css-tricks.com/centering-css-complete-guide/#horizontal-block*/
+/*Reference center header https://css-tricks.com/centering-css-complete-guide/#horizontal-block -Allison*/
 .faqheader{
 	margin: 0 auto;
 	text-align: center;
