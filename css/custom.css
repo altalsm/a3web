@@ -557,6 +557,7 @@ details > summary::-webkit-details-marker {
   
 }
                                     /* Testimonial - Client*/
+/*Reference center header https://css-tricks.com/centering-css-complete-guide/#horizontal-block*/
 .faqheader{
 	margin: 0 auto;
 	text-align: center;
