@@ -292,6 +292,7 @@ nav.sticky
   
   /*form career page CSS*/
   /*Source: https://www.w3schools.com/css/css_form.asp*/
+  /*Arathy*/
   input[type=text], select 
   {
     width: 100%;
@@ -318,7 +319,8 @@ nav.sticky
     background-color: #351cc5;
   }
   /*Site Suitability Gallary*/
-  /* Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery   */
+  /* Source: https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery */
+  /*Arathy*/
   div.gallery {
     margin: 5px;
     border: 1px solid #ccc;
