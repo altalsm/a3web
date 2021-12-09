@@ -350,6 +350,7 @@ nav.sticky
 /*  ---------------------------FOOTER SECTION Starts Here ---------------------------------*/
 
 .footer-content{
+    background-color: #5f636d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -370,6 +371,11 @@ nav.sticky
     margin-top: 40px;
     margin-bottom: 50px;
 }
+.footer-content h2{
+  color:  black;
+  text-align: center;
+  font-size: 13px;
+}  
 
 .footer-bottom-text{
     border-top: 1px solid rgba(255, 255, 255, 0.1);
@@ -524,6 +530,18 @@ body {
   background-color: #555;
 }
 
+/* Projects page css (Almost same as Services page) - Mansi*/
+.projects, .projects1 {
+  text-align: center;
+  list-style-type: none;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px rgb(189, 247, 218);
+}
+
+.project-img {
+  width: 50%;
+}  
 
   
   
