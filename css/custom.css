@@ -543,4 +543,33 @@ body {
   width: 50%;
 }  
 /*END OF ABOUT SECTION*/
+
+/* FAQ SECTION-Client*/
+.layout {
+  width: 1000px;
+  margin: auto;
+}
+
+summary {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background: #E8CDA1;
+  border-radius: 10px;
+  position: center;
+  
+}
+details > summary::after {
+  
+  right: 20px;
+}
+details[open] > summary::after {
+  
+ right: 20px;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+  
+}
+
   
