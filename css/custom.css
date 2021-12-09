@@ -509,6 +509,18 @@ body {
   background-color: #555;
 }
 
+/* Projects page css (Almost same as Services page) - Mansi*/
+.projects, .projects1 {
+  text-align: center;
+  list-style-type: none;
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px rgb(189, 247, 218);
+}
+
+.project-img {
+  width: 50%;
+}  
 
   
   
