@@ -285,6 +285,13 @@ nav.sticky
     background-position: left;
   }
   
+  .slider{
+    color: #0751ff;
+    margin-left: 12px;
+    box-sizing: border-box;
+    animation: slider 6s linear infinite;
+  }
+  
   /*form career page CSS*/
   /*Source: https://www.w3schools.com/css/css_form.asp*/
   input[type=text], select 
@@ -458,14 +465,14 @@ figure {
 }
 /*MEET THE TEAM on about page*/
 /*Reference:https://www.w3schools.com/howto/howto_css_team.asp*/
-   
+/*members aligned verticle down the left side*/   
 .columnteam {
   float: left;
   width: 33.3%;
   margin-bottom: 16px;
   padding: 0 8px;
 }
-/*responsive*/
+/*makes it responsive*/
 @media screen and (max-width: 650px) {
   .columnteam {
     width: 100%;
@@ -550,6 +557,12 @@ details > summary::-webkit-details-marker {
   
 }
                                     /* Testimonial - Client*/
+/*Reference center header https://css-tricks.com/centering-css-complete-guide/#horizontal-block -Allison*/
+.faqheader{
+	margin: 0 auto;
+	text-align: center;
+}
+
 .wrapper{
   max-width: 1200px;
   margin-top: auto;
